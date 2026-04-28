@@ -1,0 +1,185 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Greetings", "Good morning", "Good evening"],
+      "responses": [
+        "Hello astronaut!\nReady to explore space?",
+        "Hi there!\nAsk me anything about space "
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you", "Catch you later"],
+      "responses": [
+        "Goodbye!\nKeep exploring the universe ",
+        "See you later, space explorer!\nTake care."
+      ]
+    },
+
+    {
+      "tag": "space",
+      "patterns": ["What is space", "Define space", "Explain space", "Tell me about space"],
+      "responses": [
+        "Space is the vast region beyond Earth's atmosphere.\nIt contains stars, planets, and galaxies.",
+        "Outer space is mostly empty but filled with radiation.\nIt extends infinitely across the universe."
+      ]
+    },
+
+    {
+      "tag": "gravity",
+      "patterns": ["What is gravity", "Explain gravity", "How does gravity work"],
+      "responses": [
+        "Gravity is a force that pulls objects with mass toward each other.\nIt keeps planets orbiting the Sun.",
+        "Gravity acts between all objects with mass.\nStronger mass means stronger pull."
+      ]
+    },
+
+    {
+      "tag": "planets",
+      "patterns": ["How many planets are there", "Name the planets", "List all planets"],
+      "responses": [
+        "There are 8 planets in our solar system.\nThey orbit the Sun in fixed paths.",
+        "The planets are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune."
+      ]
+    },
+
+    {
+      "tag": "earth",
+      "patterns": ["Tell me about Earth", "Why is Earth special", "Is Earth habitable"],
+      "responses": [
+        "Earth is the only known planet with life.\nIt has water, oxygen, and suitable conditions.",
+        "Earth’s atmosphere protects life.\nIt also maintains stable temperatures."
+      ]
+    },
+
+    {
+      "tag": "sun",
+      "patterns": ["What is the Sun", "Is the Sun a star", "Why is the Sun important"],
+      "responses": [
+        "The Sun is a star at the center of our solar system.\nIt provides energy for life.",
+        "It produces energy through nuclear fusion.\nThis powers Earth’s climate and ecosystems."
+      ]
+    },
+
+    {
+      "tag": "moon",
+      "patterns": ["What is the Moon", "Tell me about the Moon", "Why does the Moon shine"],
+      "responses": [
+        "The Moon is Earth's natural satellite.\nIt reflects sunlight, making it visible.",
+        "It affects ocean tides.\nIt has no atmosphere and a rocky surface."
+      ]
+    },
+
+    {
+      "tag": "mars",
+      "patterns": ["Tell me about Mars", "Why is Mars red", "Is Mars habitable"],
+      "responses": [
+        "Mars is called the Red Planet due to iron oxide.\nIt has a thin atmosphere.",
+        "Scientists study Mars for future colonization.\nConditions are harsh but promising."
+      ]
+    },
+
+    {
+      "tag": "black_hole",
+      "patterns": ["What is a black hole", "Explain black holes"],
+      "responses": [
+        "A black hole has extremely strong gravity.\nNothing, not even light, can escape it.",
+        "They form when massive stars collapse.\nThey warp space and time."
+      ]
+    },
+
+    {
+      "tag": "stars",
+      "patterns": ["What are stars", "Why do stars shine"],
+      "responses": [
+        "Stars are massive balls of gas.\nThey produce energy through nuclear fusion.",
+        "They shine due to fusion reactions.\nThis releases enormous energy."
+      ]
+    },
+
+    {
+      "tag": "galaxy",
+      "patterns": ["What is a galaxy", "Which galaxy do we live in"],
+      "responses": [
+        "A galaxy is a system of stars and planets.\nWe live in the Milky Way.",
+        "The Milky Way has billions of stars.\nOur solar system is a small part of it."
+      ]
+    },
+
+    {
+      "tag": "rocket",
+      "patterns": ["How do rockets work", "Explain rocket propulsion"],
+      "responses": [
+        "Rockets work by expelling gas downward.\nThis creates thrust upward.",
+        "They follow Newton’s third law.\nEvery action has an equal reaction."
+      ]
+    },
+
+    {
+      "tag": "astronaut",
+      "patterns": ["Who is an astronaut", "What do astronauts do"],
+      "responses": [
+        "Astronauts travel and work in space.\nThey conduct experiments and missions.",
+        "They undergo rigorous training.\nThey operate spacecraft and research equipment."
+      ]
+    },
+
+    {
+      "tag": "light_year",
+      "patterns": ["What is a light year", "Explain light year"],
+      "responses": [
+        "A light-year is a unit of distance.\nIt is how far light travels in a year.",
+        "It helps measure huge space distances.\nLight travels about 9.46 trillion km yearly."
+      ]
+    },
+
+    {
+      "tag": "satellites",
+      "patterns": ["What is a satellite", "Artificial satellites"],
+      "responses": [
+        "Satellites orbit planets.\nThey can be natural or artificial.",
+        "Artificial satellites help in communication.\nThey also provide GPS and weather data."
+      ]
+    },
+
+    {
+      "tag": "iss",
+      "patterns": ["What is ISS", "International Space Station"],
+      "responses": [
+        "The ISS is a space station orbiting Earth.\nAstronauts live and work there.",
+        "It is used for scientific research.\nIt is a collaboration of multiple countries."
+      ]
+    },
+
+    {
+      "tag": "exoplanets",
+      "patterns": ["What are exoplanets"],
+      "responses": [
+        "Exoplanets are planets outside our solar system.\nThey orbit other stars.",
+        "Thousands have been discovered.\nSome may support life."
+      ]
+    },
+
+    {
+      "tag": "dark_matter",
+      "patterns": ["What is dark matter"],
+      "responses": [
+        "Dark matter is invisible and does not emit light.\nIt makes up most of the universe's mass.",
+        "It is detected through gravity.\nIts nature is still unknown."
+      ]
+    },
+
+    {
+      "tag": "aliens",
+      "patterns": ["Do aliens exist", "Is there life outside Earth"],
+      "responses": [
+        "There is no confirmed evidence of aliens.\nScientists continue searching.",
+        "Life beyond Earth is possible.\nBut not proven yet."
+      ]
+    }
+
+  ]
+}
